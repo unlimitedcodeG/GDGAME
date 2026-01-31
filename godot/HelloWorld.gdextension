@@ -4,9 +4,11 @@ compatibility_minimum = 4.1
 reloadable = true
 
 [libraries]
-macos.debug = "res://../rust/target/debug/libhello_world.dylib"
-macos.release = "res://../rust/target/release/libhello_world.dylib"
-windows.debug.x86_64 = "res://../rust/target/debug/hello_world.dll"
-windows.release.x86_64 = "res://../rust/target/release/hello_world.dll"
-linux.debug.x86_64 = "res://../rust/target/debug/libhello_world.so"
-linux.release.x86_64 = "res://../rust/target/release/libhello_world.so"
+linux.debug.x86_64 =     "res://../rust/target/debug/libhello_world.so"
+linux.release.x86_64 =   "res://../rust/target/release/libhello_world.so"
+windows.debug.x86_64 =   "res://../rust/target/debug/libhello_world.dll"
+windows.release.x86_64 = "res://../rust/target/release/libhello_world.dll"
+macos.debug =            "res://../rust/target/debug/libhello_world.dylib"
+macos.release =          "res://../rust/target/release/libhello_world.dylib"
+macos.debug.arm64 =      "res://../rust/target/debug/libhello_world.dylib"
+macos.release.arm64 =    "res://../rust/target/release/libhello_world.dylib"
