@@ -1,0 +1,9 @@
+# Godot
+godot/.godot/
+
+# Rust
+rust/target/
+rust/Cargo.lock
+
+# OS
+.DS_Store
